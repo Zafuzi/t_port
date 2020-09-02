@@ -6,8 +6,6 @@
 		<link rel=stylesheet href=local.css>
 	</head>
 	<body>
-		<!-- Little trick to load the bg texture image before content is shown -->
-		<img src=noise.png class=hid onload="show_content()">
 		<!-- Place H1 outside of header so it can fill full width of page -->
 		<header class="hid wait">
 			<h1>zachary foutz</h1>
@@ -37,5 +35,7 @@
 			<a href="https://github.com/zafuzi" target=_blank>GitHub</a>
 		</footer>
 		<script src=local.js type=text/javascript></script>
+		<!-- Little trick to load the bg texture image before content is shown, make sure local.js is loaded first though -->
+		<img src=noise.png class=hid onload="show_content()">
 	</body>
 </html>
