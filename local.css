@@ -13,6 +13,7 @@ body, html {
 
 body {
 	background-color: rgb( 22, 33, 33 );
+    background-image: url(noise.png);
 }
 
 small { opacity: .4; }
@@ -24,9 +25,7 @@ header, main, footer {
     padding: 10px 0;
 }
 
-header {
-    margin-top: 128px;
-}
+header { margin-top: 128px; }
 
 h1 {
     width: 100%;
@@ -34,18 +33,20 @@ h1 {
     line-height: 96px;
     letter-spacing: 2px;
     color: rgba( 249, 243, 237, 1 );
-    text-shadow: 2px 4px 10px rgba( 209, 203, 197, .4 ), 2px 4px 40px rgba( 209, 203, 197, .1), 2px 4px 1px rgba( 55, 50, 50, .1 ); 
 }
 
-h2 {
-    opacity: .6;
-}
-main { }
+h2 { opacity: .6; }
 
-main ul {
-    margin-left: 45px;
+main ul { margin-left: 45px; }
+
+a { color: rgb( 55, 150, 255 ); }
+
+#about { margin-top: 45px;    }
+
+#about p {
+    margin-bottom: 15px;
+    line-height: 100%;
 }
 
-a { 
-    color: rgb( 55, 150, 255 );
-}
+/* KEEP AT BOTTOM SO NOT OVERWRITTEN */
+.hid { display: none; }
