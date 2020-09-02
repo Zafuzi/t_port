@@ -1,0 +1,51 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body, html {
+	width: 100vw;
+	font-family: sans-serif;
+	font-size: 1rem;
+	line-height: 200%;
+    color: #fff;
+}
+
+body {
+	background-color: rgb( 22, 33, 33 );
+}
+
+small { opacity: .4; }
+
+header, main, footer {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+header {
+    margin-top: 128px;
+}
+
+h1 {
+    width: 100%;
+    font-size: 72px;
+    line-height: 96px;
+    letter-spacing: 2px;
+    color: rgba( 249, 243, 237, 1 );
+    text-shadow: 2px 4px 10px rgba( 209, 203, 197, .4 ), 2px 4px 40px rgba( 209, 203, 197, .1), 2px 4px 1px rgba( 55, 50, 50, .1 ); 
+}
+
+h2 {
+    opacity: .6;
+}
+main { }
+
+main ul {
+    margin-left: 45px;
+}
+
+a { 
+    color: rgb( 55, 150, 255 );
+}
