@@ -37,10 +37,16 @@ h1 {
 }
 
 h2 { opacity: .6; }
+h4 {
+    text-align: center;
+}
 
 main ul { margin-left: 45px; }
 
 a { color: rgb( 55, 150, 255 ); }
+a:visited { color: green; }
+a:active { color: red; }
+a:hover { color: yellow; }
 
 #about { margin-top: 45px;    }
 
